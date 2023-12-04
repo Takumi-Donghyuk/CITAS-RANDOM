@@ -33,13 +33,24 @@
     height: 35px;
     border-style: none;
 }
+.quotebox_btn img:hover{
+    background-color: blue;
+    cursor:pointer;
+}
+
+
+.quotebox_btn img:active{
+    background-color: red;
+    cursor:pointer;
+}
+
 .quotebox_btn img{
     position: relative;
-    bottom: 5%;
-    right: 33%;
+    bottom: 8%;
+    right: 45%;
     border-radius: 100%;
-    width: 40px;
-    height: 40px;
+    width: 45px;
+    height: 45px;
     border-style: none;
     z-index: 100;
 }
